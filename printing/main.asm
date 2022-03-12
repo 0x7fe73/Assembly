@@ -17,7 +17,6 @@ _start:
     syscall
     ret
 
-
 section .data
     message db "Hello World!", 12
     mlength equ $ - message
